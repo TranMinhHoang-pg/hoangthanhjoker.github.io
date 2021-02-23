@@ -12,7 +12,7 @@
 Swal.fire({
 
   title: 'Thành công',
-      imageUrl: 'assets/img/' + data.msg + '.png',
+      imageUrl: 'https://hoangthanhjoker.github.io/assets/img/' + data.msg + '.png',
   imageWidth: 200,
   imageHeight: 200,
   imageAlt: 'Custom image',
