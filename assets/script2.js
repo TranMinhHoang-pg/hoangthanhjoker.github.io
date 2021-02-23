@@ -2,7 +2,7 @@
         $("#login-form").submit(function(b) {
             $.ajax({
                 method: "POST",
-                url: "check.php",
+                url: "/api-checkcode",
                 data: $(this).serialize(),
                 dataType: "json",
                 success: function (data) {
