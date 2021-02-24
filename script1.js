@@ -15,7 +15,7 @@
         $("#login-form").submit(function(b) {
             $.ajax({
                 method: "POST",
-                url: "/api-check",
+                url: "login.php",
                 data: $(this).serialize(),
                 dataType: "json",
                 beforeSend: function() {
